@@ -13,7 +13,8 @@ class Dog
 
   # Clear puppy database
   def self.clear_all
-    @@all = []
+    #@@all = []
+    @@all.clear
   end
 
   # Print each puppy name
